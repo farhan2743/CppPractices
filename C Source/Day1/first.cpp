@@ -8,11 +8,16 @@ Day one program
 
 #include<stdio.h>   //linking sec
 
-#define pi 3.1416;  //define sec
+#define pi 3.1416  //define sec
 
-int i=1000;      
+double rediou=4.5;         // Global Diclaration sec
 
 
-int main(){
-    printf("hello world");
+int main(){             // Main Function
+    double area;
+    area=pi*rediou*rediou;
+    printf("Area is : %lf",area);
 }
+
+
+// subProgram
