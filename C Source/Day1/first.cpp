@@ -20,6 +20,7 @@ int main(){             // Main Function
     scanf("%lf",&rediou);
     area=pi*rediou*rediou;
     printf("radius is : %lf Area is : %lf",rediou,area);
+    
 }
 
 
