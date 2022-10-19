@@ -10,8 +10,7 @@ int main (){
     double Perimeter;
     printf("Enter perimeter: ");
     scanf("%lf", &Perimeter);
-    printf("Perimeter of the rectangle is =%lf",Perimeter);
-    printf("inches\n");
+    printf("Perimeter of the rectangle is =%lf inches\n",Perimeter);
     printf("Area of the rectangle is =35 square inches");
 
 }
