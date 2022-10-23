@@ -14,23 +14,23 @@ It contains 31 days.*/
 
 
 #include"stdio.h"
-int main(int argc, char const *argv[])
+int main()
 {
     int month;
-    printf("Enter month number:");
+    printf("Enter month number: ");
     scanf("%d",&month);
 
     if (month%2==0)
     { if (month == 2)
     {
-        printf("It contains 28 days.");
+        printf("It contains 28 days.\n");
     }
     else
-        printf("It contains 31 days.");
+        printf("It contains 31 days.\n");
     }
     else
     
-       printf("It contains 30 days.");
+       printf("It contains 30 days.\n");
     
     return 0;
 }

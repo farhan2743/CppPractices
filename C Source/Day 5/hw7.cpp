@@ -11,9 +11,9 @@ Profit: 500*/
 #include<stdio.h>
 int main(){
     int a,b,c;
-    printf("Input cost price:");
+    printf("Input cost price: ");
     scanf("%d",&a);
-    printf("Input selling price:");
+    printf("Input selling price: ");
     scanf("%d",&b);
     c=b-a;
     printf("Profit: %d",c);
