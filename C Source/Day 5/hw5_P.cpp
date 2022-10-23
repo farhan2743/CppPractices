@@ -11,14 +11,9 @@ Output
 int main() 
 {
 char c;
-int small, big;
-printf("Enter the letter");
-scanf("%c", &c);
-small = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
-big = (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
-if (small || big)
-printf("%c is a vowel", c);
-else
-printf("%c is a consonant", c);
-return 0;
+printf("Input character : ");
+scanf("%c",&c);
+if (c=='a' ||c=='A' ||c=='e'||c=='E'||c=='i'||c=='I'||c=='o'||c=='O'||c=='u'||c=='U'  )
+  printf("%c is a vowel",c);
+else printf("%c is a consonant",c);
 }
