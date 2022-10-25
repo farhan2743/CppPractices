@@ -14,12 +14,16 @@ int main(){
     char c;
     printf("Enter any character : ");
     scanf("%c",&c);
-    if ((c>='a' && c <='z'|| c>='A' && c <='Z'))
+    if ((c>=97 && c <=122|| c>=65 && c <=90))
     {
         printf("%c is an alphabet",c);
 
     }
+    else if (c>=48 && c <=57)
+    
+        printf("%c is a number",c);
+    
     else
-    printf("%c is not an alphabet",c);
+    printf("%c is a symbol",c);
     
 }
