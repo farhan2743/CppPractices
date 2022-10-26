@@ -30,7 +30,10 @@ int main(){
             pDay = pDay + 31;
         }
         else if (pMonth == 2){
-            pDay = pDay + 28;
+           // pDay = pDay + 28;
+           if (pYear%400 == 0 || (pYear%4==0 && pYear%100 !=0))
+                 pDay = pDay + 29;
+            else pDay = pDay + 28;
         }
         else {
             pDay = pDay + 30;
