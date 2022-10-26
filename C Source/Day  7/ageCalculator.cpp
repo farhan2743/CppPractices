@@ -25,6 +25,7 @@ int main(){
     scanf("%d%c%d%c%d", &pDay,&c,&pMonth,&c,&pYear);
     if (pDay < bDay)
     {
+        pMonth--;
          if (pMonth==1 || pMonth==3 || pMonth== 5 || pMonth==7 || pMonth == 8 || pMonth ==10 || pMonth== 12)
         {
             pDay = pDay + 31;
@@ -38,7 +39,7 @@ int main(){
         else {
             pDay = pDay + 30;
         }
-        pMonth--;  
+          
     }
     day = pDay- bDay;
 
