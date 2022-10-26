@@ -15,12 +15,40 @@ While calculating the difference in two dates we need to just keep track of two 
 
     # include <stdio.h>
 int main(){
-    int d, m, year,d1, m1, year1;
+    int bDay,day, month , year,  bMonth, bYear,pDay, pMonth, pYear;
+    char c;
     
     printf("Birth date (dd/mm/yy): ");
-    scanf("%d/%d/%d", &d,&m,&year);
+    
+    scanf("%d%c%d%c%d", &bDay,&c,&bMonth,&c,&bYear);
     printf("Present date (dd/mm/yy): ");
-    scanf("%d/%d/%d", &d1,&m1,&year1);
+    scanf("%d%c%d%c%d", &pDay,&c,&pMonth,&c,&pYear);
+    if (pDay < bDay)
+    {
+         if (pMonth==1 || pMonth==3 || pMonth== 5 || pMonth==7 || pMonth == 8 || pMonth ==10 || pMonth== 12)
+        {
+            pDay = pDay + 31;
+        }
+        else if (pMonth == 2){
+            pDay = pDay + 28;
+        }
+        else {
+            pDay = pDay + 30;
+        }
+        pMonth--;  
+    }
+    day = pDay- bDay;
+
+    if (pMonth<bMonth)
+    {
+        pMonth=pMonth+12;
+        pYear--;
+    }
+    month= pMonth-bMonth;
+    year=pYear-bYear;
+    printf(" Present Age = \nYears: %d  Months: %d  Days: %d",year,month,day);
+    
+    }
 
     
     

@@ -9,20 +9,20 @@ int main(){
     printf("Enter day no :");
     scanf("%d",&day);
     if (day == 1)
-    printf("Saturday");
+        printf("Saturday");
 
     else if (day == 2)
-    printf("Sunday");
+        printf("Sunday");
     else if (day == 3)
-    printf("Monday");
+        printf("Monday");
     else if (day == 4)
-    printf("Tuesday");
+        printf("Tuesday");
     else if (day == 5)
-    printf("Wednesday");
+        printf("Wednesday");
     else if (day == 6)
-    printf("Thursday");
+        printf("Thursday");
     else if (day == 7)
-    printf("Friday");
+        printf("Friday");
     else printf("Invalid input.");
     
     
