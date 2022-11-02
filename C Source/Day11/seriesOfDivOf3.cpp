@@ -1,5 +1,5 @@
 /* Write a program to input value of n and calculate how many numbers are divisible
- by 3 between 1 to n and finr their sum*/
+ by 3 between 1 to n and find their sum*/
 
 
 
