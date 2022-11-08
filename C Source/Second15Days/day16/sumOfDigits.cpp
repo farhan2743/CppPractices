@@ -6,14 +6,14 @@ int main(int argc, char const *argv[])
     printf("Enter any number: ");
     scanf("%d",&n);
 
-    while (n/10)
+    while (n)
     {
        a=n%10;
        sum = sum + a;
        n/=10;
 
     }
-    sum+=n;
+   
     printf("The sum of the digits of the given number is %d\n",sum);
 
 
