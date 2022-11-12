@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
     bool flag=false;
     printf("Enter any number :");
     scanf("%d",&n);
-    for ( i = 2; i <=gg sqrt(n); i++)
+    for ( i = 2; i <= sqrt(n); i++)
     {
       if(n%i==0) {flag=true; break;}  
        
