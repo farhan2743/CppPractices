@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
     scanf("%d",&n);
    
     while (n>9)
-         n=sumOfDigit(n);  // Function Call 
+         n=sumOfDigit(n);  // Function Call ---> Call By Value
     printf("Sum of the digits is : %d",n);
     return 0;
 }
