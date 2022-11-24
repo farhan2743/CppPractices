@@ -24,6 +24,7 @@ void printSeries(int n){
 
 int main(int argc, char const *argv[])
 {
-    printSeries(22);
+    printSeries(10);
     return 0;
+
 }
