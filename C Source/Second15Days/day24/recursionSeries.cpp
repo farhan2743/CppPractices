@@ -14,8 +14,8 @@ Expected Output:
 #include<iostream>
 using namespace std;
 
-int printSeries(int n){
-    return 65.99;
+char printSeries(int n){
+    return 65;
     
 }
 
