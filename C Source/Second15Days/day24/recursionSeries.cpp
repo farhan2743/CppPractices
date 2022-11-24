@@ -15,7 +15,7 @@ Expected Output:
 using namespace std;
 
 int printSeries(int n){
-    return 65;
+    return 65.99;
     
 }
 
