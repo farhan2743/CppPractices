@@ -14,13 +14,16 @@ Expected Output:
 #include<iostream>
 using namespace std;
 
-char printSeries(int n){
-    return 65;
+void printSeries(int n){
+    if(n==0) return; 
+    cout<<n<<", ";
+    printSeries(n-1);
+    return;
     
 }
 
 int main(int argc, char const *argv[])
 {
-    cout<<printSeries(22);
+    printSeries(22);
     return 0;
 }
