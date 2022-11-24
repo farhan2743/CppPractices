@@ -16,8 +16,8 @@ using namespace std;
 
 void printSeries(int n){
     if(n==0) return; 
-    cout<<n<<", ";
     printSeries(n-1);
+    cout<<n<<", ";
     return;
     
 }
